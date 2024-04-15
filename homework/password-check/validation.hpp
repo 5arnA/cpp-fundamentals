@@ -4,12 +4,12 @@
 #include <string_view>
 
 enum class ErrorCode {
-  Ok,
-  PasswordNeedsAtLeastNineCharacters,
-  PasswordNeedsAtLeastOneNumber,
-  PasswordNeedsAtLeastOneSpecialCharacter,
-  PasswordNeedsAtLeastOneUppercaseLetter,
-  PasswordsDoNotMatch
+    Ok,
+    PasswordNeedsAtLeastNineCharacters,
+    PasswordNeedsAtLeastOneNumber,
+    PasswordNeedsAtLeastOneSpecialCharacter,
+    PasswordNeedsAtLeastOneUppercaseLetter,
+    PasswordsDoNotMatch
 };
 namespace {
 
